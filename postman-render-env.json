@@ -1,0 +1,15 @@
+{
+	"id": "0496a958-61a6-4238-8fd2-d432d4061c07",
+	"name": "FSND Render",
+	"values": [
+		{
+			"key": "host",
+			"value": "https://fsnd-web.onrender.com/",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2023-11-27T16:46:19.695Z",
+	"_postman_exported_using": "Postman/10.20.3"
+}

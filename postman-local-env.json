@@ -1,0 +1,15 @@
+{
+	"id": "05babd77-ad5a-4cdd-9aa5-3b1adfe9bb75",
+	"name": "FSND Local",
+	"values": [
+		{
+			"key": "host",
+			"value": "localhost:5000",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2023-11-27T16:46:12.432Z",
+	"_postman_exported_using": "Postman/10.20.3"
+}

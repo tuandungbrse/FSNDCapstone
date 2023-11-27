@@ -2,7 +2,7 @@
 
 ### Installing Dependencies
 
-#### Python 3.7
+#### Python 3.9.18
 
 Follow instructions to install the latest version of python for your platform in the [python docs](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
 
@@ -74,6 +74,8 @@ Json Web Tokens: You can find **JWTs** for each role in the `setup.sh` file to r
 
 ## Deployment Details:
 
+- App is deployed in Render Cloud: https://fsnd-web.onrender.com
+- To test the application in Render Cloud - import Postman collections & environments included in the repo.
 
 ## Testing:
 
