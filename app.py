@@ -48,7 +48,8 @@ def create_app(test_config=None):
                 'actors': paged_actors,
                 'total_actors': total_actors
             })
-        except Exception:
+        except Exception as e:
+            print(f"Error: {e}")
             abort(422)
 
     @app.route('/actors', methods=['POST'])
