@@ -4,8 +4,6 @@ from flask_cors import CORS
 from models import setup_db, Actors, Movies
 from auth import AuthError, requires_auth
 
-PORT = os.getenv('PORT')
-
 PAGE_SIZE = 12
 
 def create_app(test_config=None):
@@ -289,4 +287,4 @@ def create_app(test_config=None):
 app = create_app()
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=PORT, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
